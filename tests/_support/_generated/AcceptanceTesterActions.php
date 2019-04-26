@@ -2284,14 +2284,14 @@ trait AcceptanceTesterActions
      * matched by $cssOrXpath and returns them as an array.
      *
      * ```html
-     * <a href="#first">First</a>
+     * <a href="#first">AdminStep</a>
      * <a href="#second">Second</a>
      * <a href="#third">Third</a>
      * ```
      *
      * ```php
      * <?php
-     * // would return ['First', 'Second', 'Third']
+     * // would return ['AdminStep', 'Second', 'Third']
      * $aLinkText = $I->grabMultiple('a');
      *
      * // would return ['#first', '#second', '#third']
